@@ -1,0 +1,4 @@
+dependency_overrides:
+  flutter_dropzone_platform_interface: 2.0.6
+  digit_data_model:
+    path: ./digit_data_model
