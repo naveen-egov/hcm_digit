@@ -244,9 +244,9 @@ class DeliverInterventionPageState
                                                             code: projectModel
                                                                 .boundaryCode)));
 
-                                                // context.router.push(
-                                                //   AcknowledgementRoute(),
-                                                // );
+                                                context.router.push(
+                                                  AcknowledgementRoute(),
+                                                );
                                               }
                                             },
                                           );

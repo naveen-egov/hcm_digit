@@ -130,21 +130,21 @@ class _UserProfilePageState extends LocalizedState<UserProfilePage> {
                                         IndividualSearchModel>>()
                                 .create(entity);
 
-                            final response =
-                                IndividualModelMapper.fromJson(result.data);
+//                             final response =
+//                                 IndividualModelMapper.fromJson(result.data);
 
-                            final r = ProjectBeneficiaryModel(
-                                beneficiaryClientReferenceId:
-                                    response.individualId,
-                                clientReferenceId: Uuid().v1(),
-                                dateOfRegistration:
-                                    DateTime.now().millisecondsSinceEpoch);
-// ignore: use_build_context_synchronously
-                            await context
-                                .read<
-                                    RemoteRepository<ProjectBeneficiaryModel,
-                                        ProjectBeneficiarySearchModel>>()
-                                .create(r);
+//                             final r = ProjectBeneficiaryModel(
+//                                 beneficiaryClientReferenceId:
+//                                     response.individualId,
+//                                 clientReferenceId: Uuid().v1(),
+//                                 dateOfRegistration:
+//                                     DateTime.now().millisecondsSinceEpoch);
+// // ignore: use_build_context_synchronously
+//                             await context
+//                                 .read<
+//                                     RemoteRepository<ProjectBeneficiaryModel,
+//                                         ProjectBeneficiarySearchModel>>()
+//                                 .create(r);
 
                           
 
