@@ -60,5 +60,22 @@ flutter pub get
   flutter run -d chrome --debug --web-port=3000 --web-browser-flag "--disable-web-security"
 ```
 
+## Steps to Run the Mock Relying Party Service
+1. **Install Node JS**
+2. **Navigate to the mock-relying-party-service folder:**
+   ```bash
+   cd mock-relying-party-service
+   ```
+3. **Install the required Node.js dependencies:**
+   ```bash
+   npm install
+   ```
+4.**Start the service:**
+  ```bash
+   npm start
+   ```
+
+  
+
 
 
